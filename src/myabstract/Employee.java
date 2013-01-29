@@ -1,7 +1,7 @@
 
 package myabstract;
 //Necroed a class from java ch9 to play with
-public class Employee {
+public abstract class Employee {
     //Variables
     private String employeeName;
     private String employeeNumber;

@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class MyConcrete {
 
     public static void main(String[] args) {
+        
+        
         //Variables
         String employeeName;
         String employeeNumber;
@@ -27,6 +29,12 @@ public class MyConcrete {
         
         System.out.println("Enter employee pay rate:");
         payRate = keyboard.nextDouble();
+        
+        
+        //By making Employee abstract I was still able to use this code 
+        //in the same manner as in the concrete package as I never had to make
+        //an employee object
+        
         
         //Both salary, hourly and bonus will be the same since I am using the same
         //as they all accept the same data type and I am using only 1 input
